@@ -6,9 +6,9 @@
  * 
  */
 
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
 /* var text-decoration */
 /*--
 	Common Css
@@ -98,7 +98,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider {
   background: url("../img/slider-bg.jpg") no-repeat;
-  background-size: cover;
+  background-size: auto 100%;
   background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
@@ -380,7 +380,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #global-header .block h1 {
