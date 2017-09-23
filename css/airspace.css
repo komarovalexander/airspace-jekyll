@@ -14,7 +14,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Arial,'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Helvetica;
 }
 h2 {
   font-size: 30px;
@@ -57,9 +57,7 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
-  color: #666;
+  color: #333;
 }
 /*--
 	Header Start
@@ -117,10 +115,9 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 #slider .block {
-  color: #E3E3E4;
+  color: #FFF;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -130,27 +127,25 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  letter-spacing: 3px;
 }
 /*--
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 90px 0;
 }
 #intro .block h2 {
-  padding-top: 35px;
+  padding-top: 15px;
   line-height: 27px;
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
+  color: #333;
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
+  margin-left: 40px;
   width: 100%;
 }
 #intro .section-title {
@@ -258,13 +253,21 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
+  color: #FFF;
   margin-bottom: 20px;
+}
+#feature h2 {
+  color: #FFF;
 }
 #feature .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
+}
+
+#feature .row {
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px 20px;  
 }
 /*--
 	content Start
