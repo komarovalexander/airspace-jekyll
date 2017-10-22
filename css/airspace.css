@@ -152,6 +152,9 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-left: 40px;
   width: 100%;
 }
+#feature .block img {
+  width: 100%;
+}
 #intro .section-title {
   margin-bottom: 0px;
 }
