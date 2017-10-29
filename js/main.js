@@ -8,8 +8,9 @@ $(document).ready(function(){
 	    paginationSpeed : 500,      
 	    singleItem:true,
     	autoWidth:true,
-    loop:true,
-	    autoPlay: 3000,
+    	dots: true,
+    	loop:true,
+	    autoPlay: 10000,
 	});
 
 
@@ -23,7 +24,7 @@ $(document).ready(function(){
 	});
 
 	$("#works-logo").owlCarousel({
-		autoPlay: 3000,
+		autoPlay: 10000,
 		items : 5,
 		itemsDesktop : [1199,5],
 		itemsDesktopSmall : [979,5],
