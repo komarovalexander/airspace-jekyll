@@ -297,12 +297,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #testimonial {
   padding: 100px 0;
 }
- .block h2 {
+.testimonial-carousel .block h2 {
   line-height: 27px;
   color: #5C5C5C;
   padding-top: 110px;
 }
- .block p {
+.testimonial-carousel .block p {
   padding-top: 50px;
   color: #7B7B7B;
 }
