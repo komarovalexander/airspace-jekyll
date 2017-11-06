@@ -336,6 +336,15 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #353241;
   font-weight: 600;
 }
+ .testimonial-carousel .owl-carousel {
+   position: relative;
+   padding-top: 30px;
+ }
+ .testimonial-carousel .owl-carousel .owl-pagination {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
  .testimonial-carousel .owl-carousel .owl-pagination div {
   border: 1px solid #1D1D1D;
   border-radius: 500px;
