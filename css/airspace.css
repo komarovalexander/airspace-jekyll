@@ -172,6 +172,14 @@ font header .navbar-default .navbar-nav li a:hover {
 .table th{
   text-align: center; 
 }
+#price h3, #price p, #price table td {
+  padding-left: 20px;
+}
+#price h2 {
+    background-color: #AAA;
+    color: white;
+    padding: 2px 20px;
+}
 /*--
 	call-to-action Start
 --*/

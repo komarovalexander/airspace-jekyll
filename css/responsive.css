@@ -165,7 +165,7 @@ px      68    160    252    */
   .heading {
     padding-left: 0px;
   }
-  h2 {
+  h2, h3 {
     font-size: 18px;
   }
   header .navbar-default .navbar-toggle {
