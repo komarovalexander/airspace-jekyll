@@ -319,7 +319,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
  .testimonial-carousel .owl-carousel {
    position: relative;
-   padding-top: 30px;
+   padding-top: 50px;
  }
  .testimonial-carousel .owl-carousel .owl-pagination {
   position: absolute;
