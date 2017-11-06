@@ -38,6 +38,9 @@ ul {
   margin: 0;
   list-style: none;
 }
+a.phone{
+  color: white;
+}
 a,
 a:active,
 a:focus,
