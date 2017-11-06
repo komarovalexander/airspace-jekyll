@@ -138,7 +138,6 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #service {
     text-align: left;
-  padding: 90px 0;
     background-color: #666;
     color: white;  
 }
@@ -238,12 +237,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature.feature2 {
   background-image: url("../img/featue-bg-2.jpg");
 }
-#feature h2 {
-  margin-bottom: 30px;
-}
 #feature p {
   color: #FFF;
-  margin-bottom: 20px;
 }
 #feature h2 {
   color: #FFF;
@@ -780,6 +775,10 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
+}
+
+#service, #intro, #slider, #feature {
+  padding: 45px 0;
 }
 
 @media(max-width: 990px) {
