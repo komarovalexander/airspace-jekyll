@@ -162,6 +162,9 @@ px      68    160    252    */
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+.testimonial-carousel .owl-carousel {
+   padding-top: 50px;
+ }
   .heading {
     padding-left: 0px;
   }
