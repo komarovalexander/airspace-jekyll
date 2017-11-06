@@ -1,1 +1,2 @@
 User-agent: *
+sitemap: http://brigada-montazhnikov.ru/sitemap.xml
