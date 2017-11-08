@@ -5,7 +5,9 @@ $(document).ready(function(){
 
 
 	$("#testimonial-slider").owlCarousel({
-	    paginationSpeed : 500,      
+	    paginationSpeed : 500,
+    navigation : true,
+    navigationText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 	    singleItem:true,
     	autoWidth:true,
     	dots: true,
