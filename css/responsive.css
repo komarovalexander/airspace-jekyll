@@ -162,6 +162,12 @@ px      68    160    252    */
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+.owl-item h3, .owl-item p, .owl-pagination {
+  padding: 0;
+}
+.owl-controls .owl-buttons div {
+    display: none;
+}
 .testimonial-carousel .owl-carousel {
    padding-top: 50px;
  }
