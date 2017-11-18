@@ -3,18 +3,19 @@ $(document).ready(function(){
 
 	$("#portfolio-contant-active").mixItUp();
 
-
-	$("#testimonial-slider").owlCarousel({
-	    paginationSpeed : 500,
-    navigation : true,
-    navigationText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
-	    singleItem:true,
-    	autoWidth:true,
-    	dots: true,
-    	loop:true,
-	    autoPlay: 10000,
+	$("#portfolio-work .cell").click(function(){
+		var item = $(this);
+		item.off("click");
+		item.animate({
+		    width: $(".cell.main").width()
+		  }, 200, function() {
+		  		item.removeAttr("style");
+				item.addClass("main");
+		  });
+		$('html, body').animate({
+            scrollTop: item.offset().top + 'px'
+        }, 'fast');
 	});
-
 
 
 
