@@ -462,7 +462,9 @@ font header .navbar-default .navbar-nav li a:hover {
 
 
 @media screen and (max-width: 600px) {
-  #portfolio-work{
+  #portfolio-work,
+  #portfolio-work .container,
+  #portfolio-work .container .col-md-12{
     padding: 0;
   }
   #portfolio-work .cell, #portfolio-work .cell.main {
