@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	$("#portfolio-contant-active").mixItUp();
 
-	$("#portfolio-work .cell").click(function(){
+	$("#portfolio-work .cell:not(.main)").click(function(){
 		var item = $(this);
 		item.off("click");
 		item.animate({

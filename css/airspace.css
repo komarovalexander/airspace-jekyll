@@ -443,6 +443,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .responsive-image {
   max-width: 100%;
 }
+#portfolio-work .cell {
+    padding: 20px;
+    background-color: #eee;
+    margin: 1%;
+    cursor: pointer;
+  }
   #portfolio-work .cell.main {
     width: 100%;
     padding: 0;
@@ -454,6 +460,23 @@ font header .navbar-default .navbar-nav li a:hover {
     background-color: #fff;
   }
 
+
+@media screen and (max-width: 600px) {
+  #portfolio-work{
+    padding: 0;
+  }
+  #portfolio-work .cell, #portfolio-work .cell.main {
+    width: 100%;
+    padding: 40px 10px;
+    margin: 0;
+    background-color: #fff;
+    cursor: default;
+    border-bottom: 1px solid #eee;
+  }
+  #portfolio-work .cell, #portfolio-work .cell h3{
+    margin-top: 0;
+  }
+}
 
 @media screen and (min-width: 600px) {
   #portfolio-work .grid {
