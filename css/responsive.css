@@ -168,6 +168,12 @@ px      68    160    252    */
 .owl-controls .owl-buttons div {
     display: none;
 }
+#service, #intro, #slider, #feature{
+  padding: 40px 0;
+}
+#service h2, #intro h2, #slider h2, #feature h2{
+  margin-top: 0;
+}
 .testimonial-carousel .owl-carousel {
    padding-top: 50px;
  }
