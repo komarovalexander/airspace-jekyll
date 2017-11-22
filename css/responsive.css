@@ -168,10 +168,10 @@ px      68    160    252    */
 .owl-controls .owl-buttons div {
     display: none;
 }
-#service, #intro, #slider, #feature{
+.service, .intro, #slider, #feature{
   padding: 40px 0;
 }
-#service h2, #intro h2, #slider h2, #feature h2{
+.service h2, .intro h2, #slider h2, #feature h2{
   margin-top: 0;
 }
 .testimonial-carousel .owl-carousel {
@@ -222,7 +222,7 @@ px      68    160    252    */
 	service Start 
 --*/
 
-  #service .thumbnail {
+  .service .thumbnail {
     padding-bottom: 70px;
   }
   /*--
